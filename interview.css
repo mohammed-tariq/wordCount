@@ -1,0 +1,33 @@
+#main{
+    background-color: antiquewhite;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#label{
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+#text{
+    height: 70px;
+    width: 50%;
+    margin: auto;
+}
+
+#submit{
+    width: 30%;
+    margin:15px auto;
+}
+
+#result{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
