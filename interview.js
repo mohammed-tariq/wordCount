@@ -10,6 +10,8 @@ let resultData=[];
 function submitText(e)
 {
     e.preventDefault();
+    resultData=[];
+    displayResult.innerHTML='';
     if(input.value==''){
         alert("Please enter some text")
     }
